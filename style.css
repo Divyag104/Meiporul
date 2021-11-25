@@ -1,0 +1,216 @@
+.body
+{
+    background-color: black;
+    box-sizing: border-box;
+    height:100%;
+}
+
+.header
+{
+    
+    height: 90vh;
+    color:white;
+    text-align: center;
+    font-size: 4vh;
+
+}
+.background
+{
+     height: 90vh;
+     width :100%;
+     background-image: url(https://i.redd.it/v2oy310hbjv11.png);
+     z-index: -1;
+     
+}
+.content
+{ 
+    box-sizing: content-box;
+    padding: 10vh;
+    height: 50vh;
+    font-size: 4.5vh;
+    background-color: transparent;
+   
+}
+.button
+{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    border: 1px solid black;
+    justify-content: center;
+    height: 13vh;
+    width:30vh;
+    font-size: 4vh;
+    
+}
+.web
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "h1 h1" "a1 a2";
+    height:50vh;
+}
+.h1
+{
+    grid-area: h1;
+    height: 15vh;
+    text-align: center;
+    font-size: 6vh;
+
+}
+.a1
+{
+grid-area: a1;
+height: 30vh;
+font-size:4vh;
+padding: 5vh;
+}
+.a2
+{
+grid-area: a2;
+height: 30vh;
+font-size:4vh;
+padding: 5vh;
+}
+.image
+{
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-areas: "img1 img2 img3" "con1 con2 con3";
+    /* grid-template-rows: 40vh 60vh; */
+    padding:1vh;
+    justify-content: center;
+    background-color: rgb(44, 42, 42);
+    /* border: 2px solid black; */
+    column-gap: 5vh;
+
+}
+.image img
+{
+ width:100%;
+ height: 100%;
+}
+.i1
+{
+    grid-area: img1;
+    object-fit:cover;
+    max-height:25vh;
+    /* padding: 1vh; */
+      
+}
+.i2
+{
+
+    grid-area: img2;
+    object-fit: cover;
+    max-height: 25vh;
+    /* padding: 1vh; */
+}
+.i3
+{
+    grid-area: img3;
+    object-fit: cover;
+    max-height: 25vh;
+    /* padding: 1vh; */
+}
+.con1
+{
+    grid-area: con1;
+    height: 50vh;
+font-size:4vh;
+padding: 1vh;
+background-color: white;
+text-align: center;
+
+
+}
+.con2
+{
+    grid-area: con2;
+    height: 50vh;
+font-size:4vh;
+padding: 1vh;
+background-color: white;
+text-align: center;
+
+}
+.con3
+{
+    grid-area: con3;
+    height: 50vh;
+font-size:4vh;
+padding: 1vh;
+ background-color: white;
+ text-align: center;
+
+}
+.sec4
+{
+    box-sizing: border-box;
+    background-color: white;
+    color:black;
+    padding: 5vh;
+    text-align: center;
+    font-size: 4vh;
+}
+.sec5
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "contact about";
+    /* height: 30vh; */
+}
+.contact
+{
+    grid-area: contact;
+    background-color: rgb(6, 109, 173);
+    color: white;
+    text-align:  center;
+    font-size: 3.5vh;
+    padding: 6vh;
+    
+}
+.about
+{
+    grid-area: about;
+    background-color: rgb(61, 59, 59);
+    color: white;
+    text-align: center;
+    font-size: 3.5vh;
+    padding:6vh;
+}
+
+.sec6
+{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-areas: "acme project media";
+    height: 20vh;
+    background-color: black;
+    /* padding: 1vh; */
+}
+.acme
+{   
+    grid-area: acme;
+    color: white;
+    text-align: center;
+    font-size: 3.5vh;
+    padding:1vh; 
+
+}
+.project
+{
+    grid-area: project;
+    color: white;
+    text-align: right;
+    font-size: 3.5vh;
+    padding: 1vh; 
+}
+.media
+{   
+    grid-area: media;
+    color: rgb(52, 171, 192);
+    text-align: left;
+    font-size: 3.5vh;
+    padding:1vh; 
+}
